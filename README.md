@@ -8,11 +8,7 @@
 ## **Tecnologias Utilizadas:**
 
 <div style="display: inline_block">
-  <img align="center" alt="icone-GIT" height="60" src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg">
-  &nbsp;&nbsp;
   <img align="center" alt="icone-VS-CODE" height="60" src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg">
-  &nbsp;&nbsp;
-  <img align="center" alt="icone-GIT-LENS" height="60" src="https://github.com/gitkraken/vscode-gitlens/blob/main/images/gitlens-icon.png">
   &nbsp;&nbsp;
   <img align="center" alt="icone-HTML" height="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   &nbsp;&nbsp;
@@ -21,13 +17,17 @@
   <img align="center" alt="icone-JS" height="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   &nbsp;&nbsp;
   <img align="center" alt="icone-SQL" height="60" src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg">
+  &nbsp;&nbsp;
+  <img align="center" alt="icone-GIT" height="60" src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg">
+  &nbsp;&nbsp;
+  <img align="center" alt="icone-GIT-LENS" height="60" src="https://github.com/gitkraken/vscode-gitlens/blob/main/images/gitlens-icon.png">
+  &nbsp;&nbsp;
 </div>
 
 ---
 
-## **TEMA** <br><br> Venda de produtos ....
-
-<img src="img/ .png" alt="Logo  " width="200">
+<img src="./projeto-integrador-tech5tore/imgs/tech5tore1.png" alt="Logomarca TECH5TORE" width="178.32" height="48.33"> 
+Vendas de Computadores, Notebooks, Tablets, Periféricos, Acessórios, Eletrônicos e Hardware em geral.
 
 ---
 
@@ -49,7 +49,7 @@
 
 * Proz Tecnologia;
 * Portal Tech;
-* AWS;
 * Meta;
+* AWS;
 
-![Green Retro Vintage Oak Tree Logo (Capa para Facebook) (1640 × 200 px)](img/markedown/capa_face.png)
+
