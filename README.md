@@ -1,12 +1,6 @@
-![Green Retro Vintage Oak Tree Logo (Capa para Facebook) (1640 × 200 px)](img/markedown/capa_face.png)
 
-# Projeto Integrador Front-End <br> Portal Tech - Proz Educação <br> Idealizado Pela Parceria da AWS e Meta
+# Projeto Integrador (Portal Tech Proz Educação, Meta e AWS.)
 
-<div align="center">
-  <img src="img/logos/logo_realizacao.png" alt="Logo dos realizadores do curso" width="60%">
-</div>
-
-## Curso de Introdução à Programação Web <br> Turma 11 - Grupo 2 - Professor: Rand
 ### Repositório com os arquivos criados durante o projeto final de conclusão do Curso.
 
 ---
@@ -26,8 +20,6 @@
   &nbsp;&nbsp;
   <img align="center" alt="icone-JS" height="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   &nbsp;&nbsp;
-  <img align="center" alt="icone-Python" height="60" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg">
-  &nbsp;&nbsp;
   <img align="center" alt="icone-SQL" height="60" src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg">
 </div>
 
@@ -35,7 +27,7 @@
 
 ## **TEMA** <br><br> Venda de produtos ....
 
-<img src="img/logos/ .png" alt="Logo  " width="200">
+<img src="img/ .png" alt="Logo  " width="200">
 
 ---
 
