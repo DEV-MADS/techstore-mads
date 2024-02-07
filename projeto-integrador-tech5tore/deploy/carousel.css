@@ -1,0 +1,140 @@
+/* Define estilos para todos os descendentes diretos de elementos com a classe 'categoria' */
+categoria > * {
+   margin: 0;
+}
+
+/* Define estilos para o banner hero da categoria */
+.banner-hero-categoria {
+   --_corTexto: var(--corTexto);
+   --_corDesc: #999;
+   --_corIco: none;
+   --_corPreco: #f44336;
+   --_fundoBannerCor: #fdfbfb;
+
+   display: grid;
+   min-width: 100%;
+   aspect-ratio: 8 / 16;
+   max-height: calc(100dvh - 250px);
+
+   background-color: var(--_fundoBannerCor);
+   background-image: var(--_fundoBannerImg);
+   background-position: center;
+   background-size: cover;
+   color: var(--_corTexto);
+}
+
+/* Define estilos para o banner hero da categoria em telas maiores */
+@media (min-width: 768px) {
+   .banner-hero-categoria {
+       aspect-ratio: 16 / 8;
+       min-height: 569px;
+       background-size: contain;
+   }
+}
+
+/* Define estilos para o banner hero da categoria ao interagir (hover, focus, active) */
+.banner-hero-categoria:hover,
+.banner-hero-categoria:focus,
+.banner-hero-categoria:active {
+   color: var(--_corTexto);
+   text-decoration: none;
+}
+
+/* Define estilos para o texto dentro do banner hero da categoria */
+.banner-hero-categoria .hero-texto {
+   font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+/* Define estilos para os elementos filhos de hero-texto */
+.banner-hero-categoria .hero-texto * {
+   font-style: inherit;
+}
+
+/* Define estilos para o título h2 dentro de hero-texto */
+.banner-hero-categoria .hero-texto h2 {
+   font-weight: 700;
+   font-size: clamp(2rem, 6vw + 1rem, 4rem);
+   margin-block: calc(var(--gap) * 2) calc(var(--gap) / 2);
+   line-height: 0.9;
+   text-transform: inherit;
+   text-shadow: var(--text-shadow-100);
+}
+
+/* Define estilos para o texto de chamada para ação (cta) dentro de hero-texto */
+.banner-hero-categoria .hero-texto .cta {
+   color: var(--_corDesc);
+   font-weight: 600;
+   margin-bottom: 0;
+}
+
+/* Define estilos para a seção de imagens */
+.imgs {
+   position: relative;
+   z-index: 0;
+   display: grid;
+   gap: 20px;
+}
+
+/* Adiciona um plano de fundo à seção de imagens */
+.imgs::before {
+   content: '';
+   background-color: #f2f2f2;
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   height: 100%;
+   z-index: -1;
+   transform: translateY(40%);
+}
+
+/* Define estilos para a seção de imagens de produtos */
+.imgs .img-prods {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   gap: 20px;
+}
+
+/* Ajusta a direção da flexbox para coluna em telas menores */
+@media (max-width: 767px) {
+   .imgs .img-prods {
+       flex-direction: column;
+   }
+}
+
+/* Define estilos para cada imagem de produto */
+.imgs .img-prods .img-prod {
+   height: auto;
+   max-height: 260px;
+}
+
+/* Ajusta a altura máxima das imagens de produto em telas menores */
+@media (max-width: 767px) {
+   .imgs .img-prods .img-prod {
+       max-height: 180px;
+   }
+}
+
+/* Define estilos para a seção de logos na parte inferior */
+.imgs .logos-bottom {
+   display: flex;
+   justify-content: center;
+   gap: 60px;
+}
+
+/* Define estilos para cada logo pequeno na seção de logos */
+.imgs .logos-bottom .logo-small {
+   height: auto;
+   max-height: 45px;
+   max-width: 100px;
+}
+
+/* Define estilos para o logo específico da Lenovo, posicionando-o de forma absoluta */
+.imgs .logo-lenovo {
+   position: absolute;
+   top: -120px;
+   right: -40px;
+   max-height: 40px;
+   transform: rotate(-90deg);
+}
